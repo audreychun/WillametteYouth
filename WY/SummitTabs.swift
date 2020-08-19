@@ -15,7 +15,10 @@ class SummitTabs: UITableViewController {
     
     override func viewDidLoad() {
         
-        summitTabNames = ["ABOUT US", "SERMONS", "DEVOS", "RESOURCES", "SMALL GROUPS", "QUESTIONS"]
+        //summitTabNames = ["ABOUT US", "SERMONS", "DEVOS", "RESOURCES", "SMALL GROUPS", "QUESTIONS"]
+        summitTabNames = ["About Us ⛪", "Sermons 🙏", "Devos 📖", "Resources 📚", "Small Groups 🧑‍🤝‍🧑", "Questions ❔"]
+
+        
         identities = ["SummitAboutUs", "SummitSermons", "SummitDevos", "SummitResources", "SummitSmallGroups", "SummitQuestions"]
         
     }
@@ -29,8 +32,12 @@ class SummitTabs: UITableViewController {
         
         cell.textLabel?.text = summitTabNames[indexPath.row]
         cell.textLabel?.textColor = UIColor.white
-        cell.textLabel?.font = UIFont.systemFont(ofSize: 30)
+        cell.textLabel?.font = UIFont(name: "Bodoni 72 Smallcaps", size: 42.5)
         cell.textLabel?.textAlignment = NSTextAlignment.center
+        
+        if indexPath.row % 2 == 1 {
+            cell.backgroundColor = UIColor.init(red: 0.0, green: 0.225, blue: 0.45, alpha: 1.0)
+        }
         
         return cell
     }

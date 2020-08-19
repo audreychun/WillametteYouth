@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		540F2CFB24E0DB13001E5207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540F2CFA24E0DB13001E5207 /* AppDelegate.swift */; };
 		540F2CFD24E0DB13001E5207 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540F2CFC24E0DB13001E5207 /* SceneDelegate.swift */; };
-		540F2CFF24E0DB13001E5207 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540F2CFE24E0DB13001E5207 /* ViewController.swift */; };
 		540F2D0424E0DB14001E5207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540F2D0324E0DB14001E5207 /* Assets.xcassets */; };
 		540F2D0724E0DB14001E5207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540F2D0524E0DB14001E5207 /* LaunchScreen.storyboard */; };
 		540F2D1124E0DCD2001E5207 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540F2D0E24E0DCD2001E5207 /* HomeView.swift */; };
@@ -37,7 +36,6 @@
 		540F2CF724E0DB13001E5207 /* WY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		540F2CFA24E0DB13001E5207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		540F2CFC24E0DB13001E5207 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		540F2CFE24E0DB13001E5207 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		540F2D0324E0DB14001E5207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		540F2D0624E0DB14001E5207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		540F2D0824E0DB14001E5207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,27 +91,26 @@
 			isa = PBXGroup;
 			children = (
 				540F2D3224E0DD79001E5207 /* Main.storyboard */,
-				540F2D2624E0DCF0001E5207 /* WedNgtAboutUs.swift */,
-				540F2D2524E0DCF0001E5207 /* WedNgtDevos.swift */,
-				540F2D2724E0DCF0001E5207 /* WedNgtQuestions.swift */,
-				540F2D2424E0DCF0001E5207 /* WedNgtResources.swift */,
-				540F2D2224E0DCF0001E5207 /* WedNgtSermons.swift */,
-				540F2D2824E0DCF0001E5207 /* WedNgtServe.swift */,
-				540F2D2324E0DCF0001E5207 /* WedNgtSmallGroups.swift */,
-				540F2D2924E0DCF0001E5207 /* WedNgtTabs.swift */,
-				540F2D1524E0DCE5001E5207 /* SummitAboutUs.swift */,
-				540F2D1724E0DCE5001E5207 /* SummitDevos.swift */,
-				540F2D1A24E0DCE5001E5207 /* SummitQuestions.swift */,
-				540F2D1424E0DCE5001E5207 /* SummitResources.swift */,
-				540F2D1624E0DCE5001E5207 /* SummitSermons.swift */,
-				540F2D1824E0DCE5001E5207 /* SummitSmallGroups.swift */,
-				540F2D1924E0DCE5001E5207 /* SummitTabs.swift */,
 				540F2D0E24E0DCD2001E5207 /* HomeView.swift */,
 				540F2D0F24E0DCD2001E5207 /* HomeViewCell.swift */,
 				540F2D1024E0DCD2001E5207 /* HomeViewCell.xib */,
+				540F2D2924E0DCF0001E5207 /* WedNgtTabs.swift */,
+				540F2D2624E0DCF0001E5207 /* WedNgtAboutUs.swift */,
+				540F2D2224E0DCF0001E5207 /* WedNgtSermons.swift */,
+				540F2D2524E0DCF0001E5207 /* WedNgtDevos.swift */,
+				540F2D2824E0DCF0001E5207 /* WedNgtServe.swift */,
+				540F2D2424E0DCF0001E5207 /* WedNgtResources.swift */,
+				540F2D2324E0DCF0001E5207 /* WedNgtSmallGroups.swift */,
+				540F2D2724E0DCF0001E5207 /* WedNgtQuestions.swift */,
+				540F2D1924E0DCE5001E5207 /* SummitTabs.swift */,
+				540F2D1524E0DCE5001E5207 /* SummitAboutUs.swift */,
+				540F2D1624E0DCE5001E5207 /* SummitSermons.swift */,
+				540F2D1724E0DCE5001E5207 /* SummitDevos.swift */,
+				540F2D1424E0DCE5001E5207 /* SummitResources.swift */,
+				540F2D1824E0DCE5001E5207 /* SummitSmallGroups.swift */,
+				540F2D1A24E0DCE5001E5207 /* SummitQuestions.swift */,
 				540F2CFA24E0DB13001E5207 /* AppDelegate.swift */,
 				540F2CFC24E0DB13001E5207 /* SceneDelegate.swift */,
-				540F2CFE24E0DB13001E5207 /* ViewController.swift */,
 				540F2D0324E0DB14001E5207 /* Assets.xcassets */,
 				540F2D0524E0DB14001E5207 /* LaunchScreen.storyboard */,
 				540F2D0824E0DB14001E5207 /* Info.plist */,
@@ -196,7 +193,6 @@
 				540F2D1E24E0DCE5001E5207 /* SummitDevos.swift in Sources */,
 				540F2D2C24E0DCF0001E5207 /* WedNgtResources.swift in Sources */,
 				540F2D1C24E0DCE5001E5207 /* SummitAboutUs.swift in Sources */,
-				540F2CFF24E0DB13001E5207 /* ViewController.swift in Sources */,
 				540F2D1124E0DCD2001E5207 /* HomeView.swift in Sources */,
 				540F2D1224E0DCD2001E5207 /* HomeViewCell.swift in Sources */,
 				540F2D2D24E0DCF0001E5207 /* WedNgtDevos.swift in Sources */,

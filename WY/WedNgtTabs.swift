@@ -15,7 +15,9 @@ class WedNgtTabs: UITableViewController {
     
     override func viewDidLoad() {
         
-        wedNgtTabNames = ["ABOUT US", "SERMONS", "DEVOS", "SERVE WITH US", "RESOURCES", "SMALL GROUPS", "QUESTIONS"]
+        //wedNgtTabNames = ["ABOUT US", "SERMONS", "DEVOS", "SERVE WITH US", "RESOURCES", "SMALL GROUPS", "QUESTIONS"]
+        wedNgtTabNames = ["About Us ⛪", "Sermons 🙏", "Devos 📖", "Serve With Us 🤲", "Resources 📚", "Small Groups 🧑‍🤝‍🧑", "Questions ❔"]
+        
         identities = ["WedNgtAboutUs", "WedNgtSermons", "WedNgtDevos", "WedNgtServe", "WedNgtResources", "WedNgtSmallGroups", "WedNgtQuestions"]
         
     }
@@ -29,8 +31,13 @@ class WedNgtTabs: UITableViewController {
         
         cell.textLabel?.text = wedNgtTabNames[indexPath.row]
         cell.textLabel?.textColor = UIColor.white
-        cell.textLabel?.font = UIFont.systemFont(ofSize: 30)
+        cell.textLabel?.font = UIFont(name: "Bodoni 72 Smallcaps", size: 42.5)
         cell.textLabel?.textAlignment = NSTextAlignment.center
+        
+        if indexPath.row % 2 == 1 {
+            cell.backgroundColor = UIColor.init(red: 0.025, green: 0.325, blue: 0.05, alpha: 1.0)
+        }
+        
         
         return cell
     }
