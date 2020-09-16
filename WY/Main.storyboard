@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GR5-QG-kul">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +10,7 @@
         <!--Home-->
         <scene sceneID="0NB-kz-Gox">
             <objects>
-                <viewController storyboardIdentifier="HomeView" id="pRu-je-i5l" customClass="HomeView" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeView" id="pRu-je-i5l" customClass="HomeView" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bWn-Pq-D4p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,7 +41,7 @@
         <!--Wed Ngt-->
         <scene sceneID="pTG-7c-SbY">
             <objects>
-                <tableViewController storyboardIdentifier="WedNgtTabs" id="fNG-Dj-ZRy" customClass="WedNgtTabs" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="WedNgtTabs" id="fNG-Dj-ZRy" customClass="WedNgtTabs" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6ry-BO-qow">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,20 +71,20 @@
         <!--Wed Ngt Resources-->
         <scene sceneID="Ojd-Es-87q">
             <objects>
-                <viewController storyboardIdentifier="WedNgtResources" id="EXm-ms-vB6" customClass="WedNgtResources" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WedNgtResources" id="EXm-ms-vB6" customClass="WedNgtResources" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6UH-cR-256">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="YgC-no-EZV">
-                                <rect key="frame" x="20" y="69" width="374" height="385"/>
+                                <rect key="frame" x="20" y="69" width="374" height="700"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tk3-w3-tgB">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkE-xa-E4C">
-                                                <rect key="frame" x="110.5" y="29.5" width="153" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resources 📚" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkE-xa-E4C">
+                                                <rect key="frame" x="77.5" y="25" width="219" height="50.5"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="42"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -97,32 +96,8 @@
                                             <constraint firstItem="MkE-xa-E4C" firstAttribute="centerY" secondItem="Tk3-w3-tgB" secondAttribute="centerY" id="qbg-SJ-997"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  FOR PARENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfX-k3-Y14">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Bible Study Tools ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jmd-8N-Vxj">
                                         <rect key="frame" x="0.0" y="120" width="374" height="40"/>
-                                        <color key="backgroundColor" red="0.0090663186959999992" green="0.36160136009999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="Yid-6D-i7R"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stay connected with our High School ministry by filling out this form!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUt-FR-ttD">
-                                        <rect key="frame" x="0.0" y="180" width="374" height="43"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tad-YY-1YE">
-                                        <rect key="frame" x="0.0" y="243" width="374" height="32"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <state key="normal" title="https://willamette.cc/highschool/high-school-parent-link/"/>
-                                        <connections>
-                                            <action selector="goToWedNgtParentLink:" destination="EXm-ms-vB6" eventType="touchUpInside" id="UTK-UO-ZSQ"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  FOR STUDENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jmd-8N-Vxj">
-                                        <rect key="frame" x="0.0" y="295" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.0090663186959999992" green="0.36160136009999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="wPz-P6-Cnu"/>
@@ -132,10 +107,123 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61Y-Fl-pdp">
-                                        <rect key="frame" x="0.0" y="355" width="374" height="30"/>
-                                        <state key="normal" title="https://bibleproject.com/"/>
+                                        <rect key="frame" x="0.0" y="180" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="GFZ-hN-FEj"/>
+                                        </constraints>
+                                        <state key="normal" title="The Bible Project"/>
                                         <connections>
                                             <action selector="goToBibleProjectLink:" destination="EXm-ms-vB6" eventType="touchUpInside" id="aQV-T3-GO0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B04-Kw-u2Z">
+                                        <rect key="frame" x="0.0" y="220" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="9Vi-f7-SqM"/>
+                                        </constraints>
+                                        <state key="normal" title="Blue Letter Bible"/>
+                                        <connections>
+                                            <action selector="goToBlueLetterBibleLink:" destination="EXm-ms-vB6" eventType="touchUpInside" id="3Zs-w6-quh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogf-TR-J3S">
+                                        <rect key="frame" x="0.0" y="260" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="jRz-ny-TD3"/>
+                                        </constraints>
+                                        <state key="normal" title="OpenBible"/>
+                                        <connections>
+                                            <action selector="goToOpenBibleLink:" destination="EXm-ms-vB6" eventType="touchUpInside" id="2iS-t4-Ryo"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Mental Health Support ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAj-IF-ep6">
+                                        <rect key="frame" x="0.0" y="300" width="374" height="40"/>
+                                        <color key="backgroundColor" red="0.0090663186959999992" green="0.36160136009999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="hh3-45-RA6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRH-ym-pY8">
+                                        <rect key="frame" x="0.0" y="360" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="1xy-9v-uc9"/>
+                                        </constraints>
+                                        <state key="normal" title="My Name Is Hope Series"/>
+                                        <connections>
+                                            <action selector="goToMyNameIsHopeLink:" destination="EXm-ms-vB6" eventType="touchUpInside" id="WpA-QT-65H"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Podcasts ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a83-ff-2DB">
+                                        <rect key="frame" x="0.0" y="400" width="374" height="40"/>
+                                        <color key="backgroundColor" red="0.0090663186959999992" green="0.36160136009999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="eOf-fY-k3X"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTE-to-u4J">
+                                        <rect key="frame" x="0.0" y="460" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="3U1-Fc-FMi"/>
+                                        </constraints>
+                                        <state key="normal" title="Western Seminary"/>
+                                        <connections>
+                                            <action selector="goToWesternSeminaryLink:" destination="EXm-ms-vB6" eventType="touchUpInside" id="k73-uc-ekV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEi-DH-3hv">
+                                        <rect key="frame" x="0.0" y="500" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="RXI-yO-srw"/>
+                                        </constraints>
+                                        <state key="normal" title="GoodLion"/>
+                                        <connections>
+                                            <action selector="goToGoodLionLink:" destination="EXm-ms-vB6" eventType="touchUpInside" id="5dx-HN-7CE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpP-Xa-zdE">
+                                        <rect key="frame" x="0.0" y="540" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="xyq-QS-qbb"/>
+                                        </constraints>
+                                        <state key="normal" title="The Bible Project Podcast"/>
+                                        <connections>
+                                            <action selector="goToBibleProjectPodcastLink:" destination="EXm-ms-vB6" eventType="touchUpInside" id="qSX-Iz-Q3L"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Fun Stuff ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZF-ix-etD">
+                                        <rect key="frame" x="0.0" y="580" width="374" height="40"/>
+                                        <color key="backgroundColor" red="0.0090663186959999992" green="0.36160136009999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="4WG-4B-RwW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7C-iF-ouH">
+                                        <rect key="frame" x="0.0" y="640" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="1a5-9J-AK8"/>
+                                        </constraints>
+                                        <state key="normal" title="Famous Chilli"/>
+                                        <connections>
+                                            <action selector="goToChilliLink:" destination="EXm-ms-vB6" eventType="touchUpInside" id="mQd-EM-7Cs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pU2-ZB-qB7">
+                                        <rect key="frame" x="0.0" y="680" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="Ptx-gC-tlA"/>
+                                        </constraints>
+                                        <state key="normal" title="Hair Tutorial"/>
+                                        <connections>
+                                            <action selector="goToTikTokLink:" destination="EXm-ms-vB6" eventType="touchUpInside" id="wgJ-au-NDj"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -157,7 +245,7 @@
         <!--Wed Ngt Small Groups-->
         <scene sceneID="slg-O0-QBz">
             <objects>
-                <viewController storyboardIdentifier="WedNgtSmallGroups" id="rSR-fI-qBU" customClass="WedNgtSmallGroups" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WedNgtSmallGroups" id="rSR-fI-qBU" customClass="WedNgtSmallGroups" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="SmallGroups" id="QK0-A5-CGc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -168,9 +256,9 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ICa-7N-LPQ">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Small Groups" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Nn-9Z-pBR">
-                                                <rect key="frame" x="90" y="29.5" width="194.5" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Small Groups 🧑‍🤝‍🧑" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Nn-9Z-pBR">
+                                                <rect key="frame" x="50" y="25" width="274.5" height="50.5"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="42"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -212,15 +300,12 @@
                                         <rect key="frame" x="0.0" y="525" width="374" height="90"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5q-o5-vPo">
-                                                <rect key="frame" x="13.5" y="0.0" width="347" height="90"/>
+                                                <rect key="frame" x="45.5" y="0.0" width="283" height="90"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="18"/>
-                                                <state key="normal" title="  SIGN UP FOR SMALL GROUPS HERE  ">
+                                                <state key="normal" title="        MORE INFO TO COME        ">
                                                     <color key="titleColor" red="0.005899754906" green="0.2353060233" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="goToWedNgtSmallGroupLink:" destination="rSR-fI-qBU" eventType="touchUpInside" id="vwp-oW-0Jt"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.005899754906" green="0.2353060233" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -250,20 +335,20 @@
         <!--Wed Ngt Questions-->
         <scene sceneID="xNh-AB-GVu">
             <objects>
-                <viewController storyboardIdentifier="WedNgtQuestions" id="Y7w-Dj-AoI" customClass="WedNgtQuestions" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WedNgtQuestions" id="Y7w-Dj-AoI" customClass="WedNgtQuestions" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xH5-XW-TnV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7ZH-lP-zTW">
-                                <rect key="frame" x="20" y="69" width="374" height="579.5"/>
+                                <rect key="frame" x="20" y="69" width="374" height="562"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FxA-8n-wfS">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Questions" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxi-7E-fRo">
-                                                <rect key="frame" x="113" y="29.5" width="148.5" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Questions ❔" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxi-7E-fRo">
+                                                <rect key="frame" x="78.5" y="25" width="217.5" height="50.5"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="42"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -301,23 +386,24 @@
                                             <action selector="goToEmailDayne:" destination="Y7w-Dj-AoI" eventType="touchUpInside" id="vFq-RN-TO5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGX-tC-3Gd">
-                                        <rect key="frame" x="0.0" y="297" width="374" height="30"/>
-                                        <state key="normal" title="dans@willamette.cc"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKg-2E-vat">
+                                        <rect key="frame" x="0.0" y="297" width="374" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="zachs@willamette.cc"/>
                                         <connections>
-                                            <action selector="goToEmailDan:" destination="Y7w-Dj-AoI" eventType="touchUpInside" id="HYP-Zn-x3I"/>
+                                            <action selector="goToEmailZach:" destination="Y7w-Dj-AoI" eventType="touchUpInside" id="L3R-S7-qlK"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6C-NR-IVx">
-                                        <rect key="frame" x="0.0" y="347" width="374" height="34"/>
+                                        <rect key="frame" x="0.0" y="351" width="374" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" title="josies@willamette.cc"/>
+                                        <state key="normal" title="whitneysnwebb@yahoo.com"/>
                                         <connections>
-                                            <action selector="goToEmailJosie:" destination="Y7w-Dj-AoI" eventType="touchUpInside" id="b6C-TN-5dp"/>
+                                            <action selector="goToEmailWhitney:" destination="Y7w-Dj-AoI" eventType="touchUpInside" id="lJz-Jr-jhc"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  REPORT AN ERROR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HB2-AK-W13">
-                                        <rect key="frame" x="0.0" y="401" width="374" height="40"/>
+                                        <rect key="frame" x="0.0" y="405" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.0090663186959999992" green="0.36160136009999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="lJA-jP-7Xx"/>
@@ -326,14 +412,14 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you would like to report an error or glitch in the app, or have suggestions/ideas for it, please email:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moC-gK-E7W">
-                                        <rect key="frame" x="0.0" y="461" width="374" height="64.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To report an error or glitch in the app, or to submit suggestions/ideas, please email:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moC-gK-E7W">
+                                        <rect key="frame" x="0.0" y="465" width="374" height="43"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cX9-UZ-qcg">
-                                        <rect key="frame" x="0.0" y="545.5" width="374" height="34"/>
+                                        <rect key="frame" x="0.0" y="528" width="374" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="audreychun2003@gmail.com"/>
                                         <connections>
@@ -359,7 +445,7 @@
         <!--Wed Ngt About Us-->
         <scene sceneID="tWF-6F-vSs">
             <objects>
-                <viewController storyboardIdentifier="WedNgtAboutUs" id="AGe-iN-Gsz" customClass="WedNgtAboutUs" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WedNgtAboutUs" id="AGe-iN-Gsz" customClass="WedNgtAboutUs" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UUG-jp-it2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -373,9 +459,9 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WU1-o6-9nb" userLabel="About Us">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFg-R1-7t2">
-                                                        <rect key="frame" x="119" y="29.5" width="136.5" height="41"/>
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us ⛪" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFg-R1-7t2">
+                                                        <rect key="frame" x="85.5" y="25" width="203" height="50.5"/>
+                                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="42"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -528,20 +614,20 @@ Come join us as we all discover what our next step with Jesus may be.
         <!--Wed Ngt Sermons-->
         <scene sceneID="GDB-5e-2KZ">
             <objects>
-                <viewController storyboardIdentifier="WedNgtSermons" id="fLM-IV-bRN" customClass="WedNgtSermons" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WedNgtSermons" id="fLM-IV-bRN" customClass="WedNgtSermons" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mWQ-hz-fyb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="0Nt-Pd-o03">
-                                <rect key="frame" x="20" y="69" width="374" height="620"/>
+                                <rect key="frame" x="20" y="69" width="374" height="750"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGj-mO-eXE">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sermons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9B-wv-kjr">
-                                                <rect key="frame" x="122" y="29.5" width="130" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sermons 🙏" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9B-wv-kjr">
+                                                <rect key="frame" x="94" y="25" width="186.5" height="50.5"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="42"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -553,34 +639,19 @@ Come join us as we all discover what our next step with Jesus may be.
                                             <constraint firstItem="T9B-wv-kjr" firstAttribute="centerX" secondItem="lGj-mO-eXE" secondAttribute="centerX" id="l6G-eI-R2H"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IMr-Gn-2fz">
-                                        <rect key="frame" x="0.0" y="125" width="374" height="170"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0016" translatesAutoresizingMaskIntoConstraints="NO" id="KpN-er-U7h">
-                                                <rect key="frame" x="-965.5" y="0.0" width="2305" height="170"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.005899754906" green="0.2353060233" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FL2-S0-jmp">
+                                        <rect key="frame" x="0.0" y="125" width="374" height="500"/>
+                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="KpN-er-U7h" secondAttribute="bottom" id="fGR-uf-VCg"/>
-                                            <constraint firstAttribute="height" constant="170" id="gPj-lF-MVN"/>
-                                            <constraint firstItem="KpN-er-U7h" firstAttribute="centerX" secondItem="IMr-Gn-2fz" secondAttribute="centerX" id="jdl-YD-U0i"/>
-                                            <constraint firstItem="KpN-er-U7h" firstAttribute="top" secondItem="IMr-Gn-2fz" secondAttribute="top" id="w3f-eH-rhk"/>
+                                            <constraint firstAttribute="height" constant="500" id="9nd-2P-Rrc"/>
                                         </constraints>
-                                    </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqx-MY-7fI">
-                                        <rect key="frame" x="0.0" y="320" width="374" height="175"/>
-                                        <color key="backgroundColor" red="0.0090663186959999992" green="0.36160136009999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="175" id="EaO-LD-sKI"/>
-                                        </constraints>
-                                        <string key="text">Every week we look at what the Bible has to say about God, ourselves, and the world. Each message is biblical based, culturally relevant, and given with the intention of pushing us toward our next step in Christ.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                        <wkWebViewConfiguration key="configuration">
+                                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                            <wkPreferences key="preferences"/>
+                                        </wkWebViewConfiguration>
+                                    </wkWebView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9v9-Hy-xMP">
-                                        <rect key="frame" x="0.0" y="520" width="374" height="100"/>
+                                        <rect key="frame" x="0.0" y="650" width="374" height="100"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8z-Fj-cuW" userLabel="goToLink">
                                                 <rect key="frame" x="19.5" y="5" width="335" height="90"/>
@@ -615,6 +686,9 @@ Come join us as we all discover what our next step with Jesus may be.
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lIp-Mf-l15"/>
                     </view>
+                    <connections>
+                        <outlet property="webview" destination="FL2-S0-jmp" id="Rbb-rU-em9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4oH-UE-hfF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -623,7 +697,7 @@ Come join us as we all discover what our next step with Jesus may be.
         <!--Wed Ngt Devos-->
         <scene sceneID="VgH-Sn-lF4">
             <objects>
-                <viewController storyboardIdentifier="WedNgtDevos" id="aPy-jW-CLd" customClass="WedNgtDevos" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WedNgtDevos" id="aPy-jW-CLd" customClass="WedNgtDevos" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vKb-CK-wSY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -634,9 +708,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XoG-gF-ru1">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devotionals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpy-Ge-k9r">
-                                                <rect key="frame" x="101" y="29.5" width="172" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devotionals 📖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpy-Ge-k9r">
+                                                <rect key="frame" x="58" y="25" width="258" height="50.5"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="42"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -681,13 +755,13 @@ Come join us as we all discover what our next step with Jesus may be.
                                         <rect key="frame" x="0.0" y="520" width="374" height="90"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8A-Ai-HJT" userLabel="goToLink">
-                                                <rect key="frame" x="41.5" y="0.0" width="291" height="90"/>
+                                                <rect key="frame" x="38" y="0.0" width="298" height="90"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="uGn-tK-Y7z"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="18"/>
-                                                <state key="normal" title="  CLICK HERE FOR OUR DEVOS  ">
+                                                <state key="normal" title="  CLICK HERE FOR PAST DEVOS  ">
                                                     <color key="titleColor" red="0.005899754906" green="0.2353060233" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
@@ -722,7 +796,7 @@ Come join us as we all discover what our next step with Jesus may be.
         <!--Wed Ngt Serve-->
         <scene sceneID="hdx-uY-Wly">
             <objects>
-                <viewController storyboardIdentifier="WedNgtServe" id="MGO-NS-r5b" customClass="WedNgtServe" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WedNgtServe" id="MGO-NS-r5b" customClass="WedNgtServe" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yza-sy-QTA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -733,9 +807,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQI-wo-gCG">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Serving Opportunities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISD-ar-OTH">
-                                                <rect key="frame" x="28" y="29.5" width="318" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Serving Opportunities 🤲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISD-ar-OTH">
+                                                <rect key="frame" x="4.5" y="28" width="365" height="44.5"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="37"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -785,7 +859,7 @@ Come join us as we all discover what our next step with Jesus may be.
         <!--The Summit-->
         <scene sceneID="DEN-B5-6Vx">
             <objects>
-                <tableViewController storyboardIdentifier="SummitTabs" id="P3t-bu-Z9X" customClass="SummitTabs" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SummitTabs" id="P3t-bu-Z9X" customClass="SummitTabs" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sht-dI-pQ4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -815,7 +889,7 @@ Come join us as we all discover what our next step with Jesus may be.
         <!--Summit About Us-->
         <scene sceneID="Kjv-UY-fhJ">
             <objects>
-                <viewController storyboardIdentifier="SummitAboutUs" id="61T-rQ-Iau" customClass="SummitAboutUs" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SummitAboutUs" id="61T-rQ-Iau" customClass="SummitAboutUs" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jiy-c7-8Mt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -826,9 +900,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ERq-XJ-7Cb">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHL-fH-tM9">
-                                                <rect key="frame" x="119" y="29.5" width="136.5" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us ⛪" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHL-fH-tM9">
+                                                <rect key="frame" x="85.5" y="25" width="203" height="50.5"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="42"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -841,20 +915,35 @@ Come join us as we all discover what our next step with Jesus may be.
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNg-eH-LEP">
-                                        <rect key="frame" x="0.0" y="120" width="374" height="175"/>
+                                        <rect key="frame" x="0.0" y="120" width="374" height="150"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="175" id="zyo-bI-d5Q"/>
+                                            <constraint firstAttribute="height" constant="150" id="zyo-bI-d5Q"/>
                                         </constraints>
                                         <string key="text">At the Summit, our goal is to see middle school students grow deeper in their faith as they make it their own. We’re here to help them begin to understand the difference between knowing about God and knowing God.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0013" translatesAutoresizingMaskIntoConstraints="NO" id="2ED-GL-7kI">
+                                        <rect key="frame" x="0.0" y="290" width="374" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="iZj-RW-hOG"/>
+                                        </constraints>
+                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uZ-Gj-CeH">
-                                        <rect key="frame" x="0.0" y="315" width="374" height="453"/>
+                                        <rect key="frame" x="0.0" y="510" width="374" height="218"/>
                                         <string key="text">We meet every Sunday morning during the 11:15am service over at The Summit. Students have the opportunity to connect through fun games, great worship, and awesome small groups. In addition, each week includes a practical message that each student can take with them and apply at home and school.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4N1-t6-x1g">
+                                        <rect key="frame" x="0.0" y="748" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="9Ag-L1-PSi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -877,20 +966,20 @@ Come join us as we all discover what our next step with Jesus may be.
         <!--Summit Sermons-->
         <scene sceneID="HWs-lw-H8N">
             <objects>
-                <viewController storyboardIdentifier="SummitSermons" id="8uR-7W-2mS" customClass="SummitSermons" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SummitSermons" id="8uR-7W-2mS" customClass="SummitSermons" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wJG-bv-FdI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="UfO-dS-D37">
-                                <rect key="frame" x="20" y="69" width="374" height="610"/>
+                                <rect key="frame" x="20" y="69" width="374" height="740"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHB-1l-Kiz">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sermons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yB3-Ml-GRP">
-                                                <rect key="frame" x="122" y="29.5" width="130" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sermons 🙏" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yB3-Ml-GRP">
+                                                <rect key="frame" x="89.5" y="23.5" width="195" height="53"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="44"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -902,34 +991,19 @@ Come join us as we all discover what our next step with Jesus may be.
                                             <constraint firstItem="yB3-Ml-GRP" firstAttribute="centerY" secondItem="bHB-1l-Kiz" secondAttribute="centerY" id="xdr-kh-XVo"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zUg-VM-wob">
-                                        <rect key="frame" x="0.0" y="125" width="374" height="170"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0013" translatesAutoresizingMaskIntoConstraints="NO" id="2Ks-bK-f9L">
-                                                <rect key="frame" x="-965.5" y="0.0" width="2305" height="170"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.093214721850000001" blue="0.34905278499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tNc-FU-1lu">
+                                        <rect key="frame" x="0.0" y="125" width="374" height="500"/>
+                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="2Ks-bK-f9L" firstAttribute="top" secondItem="zUg-VM-wob" secondAttribute="top" id="3db-70-HwL"/>
-                                            <constraint firstAttribute="height" constant="170" id="9aB-mq-ssB"/>
-                                            <constraint firstItem="2Ks-bK-f9L" firstAttribute="centerX" secondItem="zUg-VM-wob" secondAttribute="centerX" id="ATF-00-8xl"/>
-                                            <constraint firstAttribute="bottom" secondItem="2Ks-bK-f9L" secondAttribute="bottom" id="XMu-I9-5u7"/>
+                                            <constraint firstAttribute="height" constant="500" id="MZp-vY-zMN"/>
                                         </constraints>
-                                    </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58A-aO-V7h">
-                                        <rect key="frame" x="0.0" y="320" width="374" height="175"/>
-                                        <color key="backgroundColor" red="0.25473193630000002" green="0.3365857813" blue="0.51169851040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="175" id="skv-de-Xid"/>
-                                        </constraints>
-                                        <string key="text">Every week we look at what the Bible has to say about God, ourselves, and the world. Each message is biblical based, culturally relevant, and given with the intention of pushing us toward our next step in Christ.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                        <wkWebViewConfiguration key="configuration">
+                                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                            <wkPreferences key="preferences"/>
+                                        </wkWebViewConfiguration>
+                                    </wkWebView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSW-Kc-I94">
-                                        <rect key="frame" x="0.0" y="520" width="374" height="90"/>
+                                        <rect key="frame" x="0.0" y="650" width="374" height="90"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNM-h4-mLp">
                                                 <rect key="frame" x="19.5" y="0.0" width="335" height="90"/>
@@ -962,6 +1036,9 @@ Come join us as we all discover what our next step with Jesus may be.
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="per-Ch-jib"/>
                     </view>
+                    <connections>
+                        <outlet property="webview" destination="tNc-FU-1lu" id="iHA-2z-rUU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AEx-yD-kXC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -970,7 +1047,7 @@ Come join us as we all discover what our next step with Jesus may be.
         <!--Summit Devos-->
         <scene sceneID="Knf-5I-7nf">
             <objects>
-                <viewController storyboardIdentifier="SummitDevos" id="iYy-hu-epx" customClass="SummitDevos" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SummitDevos" id="iYy-hu-epx" customClass="SummitDevos" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k8a-66-cWj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -981,9 +1058,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3fb-Aa-6Ec">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devotionals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pt2-oB-kH1">
-                                                <rect key="frame" x="101" y="29.5" width="172" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devotionals 📖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pt2-oB-kH1">
+                                                <rect key="frame" x="58" y="25" width="258" height="50.5"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="42"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1025,10 +1102,10 @@ Come join us as we all discover what our next step with Jesus may be.
                                         <rect key="frame" x="0.0" y="520" width="374" height="90"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BwR-hR-9lO">
-                                                <rect key="frame" x="49.5" y="0.0" width="275" height="90"/>
+                                                <rect key="frame" x="46" y="0.0" width="282" height="90"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
-                                                <state key="normal" title="  CLICK HERE FOR OUR DEVOS  ">
+                                                <state key="normal" title="  CLICK HERE FOR PAST DEVOS  ">
                                                     <color key="titleColor" red="0.0" green="0.093214721850000001" blue="0.34905278499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
@@ -1063,20 +1140,20 @@ Come join us as we all discover what our next step with Jesus may be.
         <!--Summit Resources-->
         <scene sceneID="G2d-fb-Po5">
             <objects>
-                <viewController storyboardIdentifier="SummitResources" id="42V-a3-N7C" customClass="SummitResources" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SummitResources" id="42V-a3-N7C" customClass="SummitResources" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qd9-yi-0Qt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mfB-3O-HUX">
-                                <rect key="frame" x="20" y="69" width="374" height="220"/>
+                                <rect key="frame" x="20" y="69" width="374" height="700"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PDj-BZ-xhQ">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bhx-aw-5uF">
-                                                <rect key="frame" x="110.5" y="29.5" width="153" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resources 📚" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bhx-aw-5uF">
+                                                <rect key="frame" x="77.5" y="25" width="219" height="50.5"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="42"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1088,7 +1165,7 @@ Come join us as we all discover what our next step with Jesus may be.
                                             <constraint firstItem="Bhx-aw-5uF" firstAttribute="centerX" secondItem="PDj-BZ-xhQ" secondAttribute="centerX" id="oBm-Tw-qDY"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  FOR PARENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jo7-Hl-7RE">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Bible Study Tools ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jo7-Hl-7RE">
                                         <rect key="frame" x="0.0" y="120" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.25473193630000002" green="0.3365857813" blue="0.51169851040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -1098,8 +1175,38 @@ Come join us as we all discover what our next step with Jesus may be.
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  FOR STUDENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8S-Dr-Guu">
-                                        <rect key="frame" x="0.0" y="180" width="374" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eG-Es-jLj">
+                                        <rect key="frame" x="0.0" y="180" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="xVE-kH-QGf"/>
+                                        </constraints>
+                                        <state key="normal" title="The Bible Project"/>
+                                        <connections>
+                                            <action selector="goToBibleProjectLink:" destination="42V-a3-N7C" eventType="touchUpInside" id="vdd-9D-NBO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBt-qD-zgb">
+                                        <rect key="frame" x="0.0" y="220" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="Qqo-W1-X4J"/>
+                                        </constraints>
+                                        <state key="normal" title="Blue Letter Bible"/>
+                                        <connections>
+                                            <action selector="goToBlueLetterBibleLink:" destination="42V-a3-N7C" eventType="touchUpInside" id="Et9-I4-2nR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppQ-m8-tVR">
+                                        <rect key="frame" x="0.0" y="260" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="7Wc-4J-4Jj"/>
+                                        </constraints>
+                                        <state key="normal" title="OpenBible"/>
+                                        <connections>
+                                            <action selector="goToOpenBibleLink:" destination="42V-a3-N7C" eventType="touchUpInside" id="FQG-fA-GN2"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Mental Health Support ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8S-Dr-Guu">
+                                        <rect key="frame" x="0.0" y="300" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.25473193630000002" green="0.3365857813" blue="0.51169851040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="RdH-R8-wBc"/>
@@ -1108,6 +1215,86 @@ Come join us as we all discover what our next step with Jesus may be.
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfU-xC-5uE">
+                                        <rect key="frame" x="0.0" y="360" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="in0-qH-9Vm"/>
+                                        </constraints>
+                                        <state key="normal" title="My Name Is Hope Series"/>
+                                        <connections>
+                                            <action selector="goToMyNameIsHopeLink:" destination="42V-a3-N7C" eventType="touchUpInside" id="dzi-KW-jNm"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Podcasts ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Hd-H9-9uh">
+                                        <rect key="frame" x="0.0" y="400" width="374" height="40"/>
+                                        <color key="backgroundColor" red="0.25473193630000002" green="0.3365857813" blue="0.51169851040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="qIr-o7-uA2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxG-TZ-gbi">
+                                        <rect key="frame" x="0.0" y="460" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="IY0-gi-Ov1"/>
+                                        </constraints>
+                                        <state key="normal" title="Western Seminary"/>
+                                        <connections>
+                                            <action selector="goToWesternSeminaryLink:" destination="42V-a3-N7C" eventType="touchUpInside" id="n0P-iE-QUG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvL-SG-lGo">
+                                        <rect key="frame" x="0.0" y="500" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="L2k-b3-zRI"/>
+                                        </constraints>
+                                        <state key="normal" title="GoodLion"/>
+                                        <connections>
+                                            <action selector="goToGoodLionLink:" destination="42V-a3-N7C" eventType="touchUpInside" id="er9-uw-JUx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBs-oc-vt8">
+                                        <rect key="frame" x="0.0" y="540" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="kNl-0N-Ie3"/>
+                                        </constraints>
+                                        <state key="normal" title="The Bible Project Podcast"/>
+                                        <connections>
+                                            <action selector="goToBibleProjectPodcastLink:" destination="42V-a3-N7C" eventType="touchUpInside" id="2sL-SJ-zbT"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Fun Stuff ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOs-8J-HDi">
+                                        <rect key="frame" x="0.0" y="580" width="374" height="40"/>
+                                        <color key="backgroundColor" red="0.25473193630000002" green="0.3365857813" blue="0.51169851040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="sBv-vZ-gXU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNv-zE-QR7">
+                                        <rect key="frame" x="0.0" y="640" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="5R3-fi-vSl"/>
+                                        </constraints>
+                                        <state key="normal" title="Famous Chilli"/>
+                                        <connections>
+                                            <action selector="goToChilliLink:" destination="42V-a3-N7C" eventType="touchUpInside" id="8A2-XF-O2g"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ll-LD-REd">
+                                        <rect key="frame" x="0.0" y="680" width="374" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="jCa-4y-3m1"/>
+                                        </constraints>
+                                        <state key="normal" title="Hair Tutorial"/>
+                                        <connections>
+                                            <action selector="goToTikTokLink:" destination="42V-a3-N7C" eventType="touchUpInside" id="g0S-JA-51E"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -1127,7 +1314,7 @@ Come join us as we all discover what our next step with Jesus may be.
         <!--Summit Small Groups-->
         <scene sceneID="ayZ-Gq-zYd">
             <objects>
-                <viewController storyboardIdentifier="SummitSmallGroups" id="Cms-71-Tci" customClass="SummitSmallGroups" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SummitSmallGroups" id="Cms-71-Tci" customClass="SummitSmallGroups" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wdJ-ou-Xgn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1138,9 +1325,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1iT-d7-ilt">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Small Groups" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZF-pQ-lBZ">
-                                                <rect key="frame" x="90" y="29.5" width="194.5" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Small Groups 🧑‍🤝‍🧑" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZF-pQ-lBZ">
+                                                <rect key="frame" x="50" y="25" width="274.5" height="50.5"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="42"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1182,15 +1369,12 @@ Come join us as we all discover what our next step with Jesus may be.
                                         <rect key="frame" x="0.0" y="520" width="374" height="90"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Swx-GW-qoh">
-                                                <rect key="frame" x="23" y="0.0" width="328" height="90"/>
+                                                <rect key="frame" x="53.5" y="0.0" width="267" height="90"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
-                                                <state key="normal" title="  SIGN UP FOR SMALL GROUPS HERE  ">
+                                                <state key="normal" title="        MORE INFO TO COME        ">
                                                     <color key="titleColor" red="0.0" green="0.093214721850000001" blue="0.34905278499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="goToSummitSmallGroupLink:" destination="Cms-71-Tci" eventType="touchUpInside" id="FVk-dN-IUT"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.093214721850000001" blue="0.34905278499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1223,20 +1407,20 @@ Come join us as we all discover what our next step with Jesus may be.
         <!--Summit Questions-->
         <scene sceneID="QiD-Um-xbe">
             <objects>
-                <viewController storyboardIdentifier="SummitQuestions" id="F9t-XH-HQv" customClass="SummitQuestions" customModule="appDraft10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SummitQuestions" id="F9t-XH-HQv" customClass="SummitQuestions" customModule="WY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eaj-x2-Go0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jsA-MQ-lrq">
-                                <rect key="frame" x="20" y="69" width="374" height="467.5"/>
+                                <rect key="frame" x="20" y="69" width="374" height="562"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gU3-hd-QWj">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Questions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z21-nV-jaU">
-                                                <rect key="frame" x="113" y="29.5" width="148.5" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Questions ❔" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z21-nV-jaU">
+                                                <rect key="frame" x="78.5" y="25" width="217.5" height="50.5"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="42"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1265,14 +1449,31 @@ Come join us as we all discover what our next step with Jesus may be.
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Snq-rd-tEf">
-                                        <rect key="frame" x="0.0" y="243" width="374" height="30"/>
+                                        <rect key="frame" x="0.0" y="243" width="374" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="daynes@willamette.cc"/>
                                         <connections>
                                             <action selector="goToEmailDayne:" destination="F9t-XH-HQv" eventType="touchUpInside" id="vWv-X0-skV"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDf-I0-0wd">
+                                        <rect key="frame" x="0.0" y="297" width="374" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="zachs@willamette.cc"/>
+                                        <connections>
+                                            <action selector="goToEmailZach:" destination="F9t-XH-HQv" eventType="touchUpInside" id="JVD-11-3Ak"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7H-SL-BXS">
+                                        <rect key="frame" x="0.0" y="351" width="374" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="whitneysnwebb@yahoo.com"/>
+                                        <connections>
+                                            <action selector="goToEmailWhitney:" destination="F9t-XH-HQv" eventType="touchUpInside" id="lgF-AP-74Z"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  REPORT AN ERROR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXl-j1-jo6">
-                                        <rect key="frame" x="0.0" y="293" width="374" height="40"/>
+                                        <rect key="frame" x="0.0" y="405" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.25473193630000002" green="0.3365857813" blue="0.51169851040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="h2T-6Y-3GE"/>
@@ -1281,14 +1482,15 @@ Come join us as we all discover what our next step with Jesus may be.
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you would like to report an error or glitch in the app, or have suggestions/ideas for it, please email:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEL-yV-50a">
-                                        <rect key="frame" x="0.0" y="353" width="374" height="64.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To report an error or glitch in the app, or to submit suggestions/ideas, please email:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEL-yV-50a">
+                                        <rect key="frame" x="0.0" y="465" width="374" height="43"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJd-56-XTk">
-                                        <rect key="frame" x="0.0" y="437.5" width="374" height="30"/>
+                                        <rect key="frame" x="0.0" y="528" width="374" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="audreychun2003@gmail.com"/>
                                         <connections>
                                             <action selector="goToEmailAudrey:" destination="F9t-XH-HQv" eventType="touchUpInside" id="YCl-6k-bWb"/>
@@ -1362,7 +1564,6 @@ Come join us as we all discover what our next step with Jesus may be.
     <resources>
         <image name="IMG_0002" width="2305" height="1537"/>
         <image name="IMG_0013" width="2305" height="1537"/>
-        <image name="IMG_0016" width="2305" height="1537"/>
         <image name="IMG_0029" width="2305" height="1537"/>
         <image name="IMG_0036" width="2305" height="1537"/>
         <image name="bible-coffee" width="890" height="594"/>

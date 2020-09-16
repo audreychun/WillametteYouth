@@ -17,9 +17,11 @@ class SummitSmallGroups: UIViewController {
         
     }
 
+    /*
     @IBAction func goToSummitSmallGroupLink(_ sender: Any) {
         
         UIApplication.shared.open(URL(string: "https://willamette.cc/student-online-community/")!, options: [:], completionHandler: nil)
         
     }
+    */
 }

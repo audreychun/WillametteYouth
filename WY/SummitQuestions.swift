@@ -23,6 +23,17 @@ class SummitQuestions: UIViewController {
         
     }
     
+    @IBAction func goToEmailZach(_ sender: Any) {
+    
+        UIApplication.shared.open(URL(string: "mailto:zachs@willamette.cc")! as URL, options: [:], completionHandler: nil)
+    
+    }
+    
+    @IBAction func goToEmailWhitney(_ sender: Any) {
+    
+        UIApplication.shared.open(URL(string: "mailto:whitneysnwebb@yahoo.com")! as URL, options: [:], completionHandler: nil)
+    
+    }
     
     @IBAction func goToEmailAudrey(_ sender: Any) {
         

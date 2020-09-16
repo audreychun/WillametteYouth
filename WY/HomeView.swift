@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeView: UIViewController,UITableViewDelegate, UITableViewDataSource {
+class HomeView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     var backgroundImages = [String]()
@@ -19,7 +19,7 @@ class HomeView: UIViewController,UITableViewDelegate, UITableViewDataSource {
         super.viewDidLoad()
         
         backgroundImages = ["WedNgtLogo", "SummitLogo"]
-        identities = ["SummitTabs", "WedNgtTabs"]
+        identities = ["WedNgtTabs", "SummitTabs"]
         
         self.title = "Home"
         
@@ -46,7 +46,7 @@ class HomeView: UIViewController,UITableViewDelegate, UITableViewDataSource {
         return view.frame.size.height / 2.3
     }
     
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath)
         let vcName = identities[indexPath.row]
         let viewController = storyboard?.instantiateViewController(withIdentifier: vcName)

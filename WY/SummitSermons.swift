@@ -7,13 +7,18 @@
 //
 
 import UIKit
+import WebKit
 
 class SummitSermons: UIViewController {
+    
+    @IBOutlet var webview: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         print("SummitSermons has loaded")
+        
+        webview.load(URLRequest(url: URL(string: "https://willamette.cc/app/students/latest/ms")!))
         
     }
 

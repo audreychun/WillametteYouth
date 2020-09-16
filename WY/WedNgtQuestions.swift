@@ -23,15 +23,15 @@ class WedNgtQuestions: UIViewController {
         
     }
     
-    @IBAction func goToEmailDan(_ sender: Any) {
+    @IBAction func goToEmailZach(_ sender: Any) {
     
-        UIApplication.shared.open(URL(string: "mailto:dans@willamette.cc")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: "mailto:zachs@willamette.cc")! as URL, options: [:], completionHandler: nil)
     
     }
     
-    @IBAction func goToEmailJosie(_ sender: Any) {
+    @IBAction func goToEmailWhitney(_ sender: Any) {
     
-        UIApplication.shared.open(URL(string: "mailto:josies@willamette.cc")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: "mailto:whitneysnwebb@yahoo.com")! as URL, options: [:], completionHandler: nil)
     
     }
     

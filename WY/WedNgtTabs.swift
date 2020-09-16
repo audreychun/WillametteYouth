@@ -31,7 +31,7 @@ class WedNgtTabs: UITableViewController {
         
         cell.textLabel?.text = wedNgtTabNames[indexPath.row]
         cell.textLabel?.textColor = UIColor.white
-        cell.textLabel?.font = UIFont(name: "Bodoni 72 Smallcaps", size: 42.5)
+        cell.textLabel?.font = UIFont(name: "Bodoni 72 Smallcaps", size: 42)
         cell.textLabel?.textAlignment = NSTextAlignment.center
         
         if indexPath.row % 2 == 1 {

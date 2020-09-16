@@ -17,11 +17,11 @@ class WedNgtSmallGroups: UIViewController {
         
     }
     
-    
+    /*
     @IBAction func goToWedNgtSmallGroupLink(_ sender: Any) {
         
         UIApplication.shared.open(URL(string: "https://willamette.cc/student-online-community/")!, options: [:], completionHandler: nil)
         
     }
-    
+    */
 }
