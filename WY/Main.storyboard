@@ -77,7 +77,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="YgC-no-EZV">
-                                <rect key="frame" x="20" y="69" width="374" height="700"/>
+                                <rect key="frame" x="20" y="69" width="374" height="655"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tk3-w3-tgB">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
@@ -107,9 +107,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61Y-Fl-pdp">
-                                        <rect key="frame" x="0.0" y="180" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="180" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="GFZ-hN-FEj"/>
+                                            <constraint firstAttribute="height" constant="15" id="GFZ-hN-FEj"/>
                                         </constraints>
                                         <state key="normal" title="The Bible Project"/>
                                         <connections>
@@ -117,9 +117,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B04-Kw-u2Z">
-                                        <rect key="frame" x="0.0" y="220" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="215" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="9Vi-f7-SqM"/>
+                                            <constraint firstAttribute="height" constant="15" id="9Vi-f7-SqM"/>
                                         </constraints>
                                         <state key="normal" title="Blue Letter Bible"/>
                                         <connections>
@@ -127,9 +127,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogf-TR-J3S">
-                                        <rect key="frame" x="0.0" y="260" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="250" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="jRz-ny-TD3"/>
+                                            <constraint firstAttribute="height" constant="15" id="jRz-ny-TD3"/>
                                         </constraints>
                                         <state key="normal" title="OpenBible"/>
                                         <connections>
@@ -137,7 +137,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Mental Health Support ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAj-IF-ep6">
-                                        <rect key="frame" x="0.0" y="300" width="374" height="40"/>
+                                        <rect key="frame" x="0.0" y="285" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.0090663186959999992" green="0.36160136009999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="hh3-45-RA6"/>
@@ -147,9 +147,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRH-ym-pY8">
-                                        <rect key="frame" x="0.0" y="360" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="345" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="1xy-9v-uc9"/>
+                                            <constraint firstAttribute="height" constant="15" id="1xy-9v-uc9"/>
                                         </constraints>
                                         <state key="normal" title="My Name Is Hope Series"/>
                                         <connections>
@@ -157,7 +157,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Podcasts ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a83-ff-2DB">
-                                        <rect key="frame" x="0.0" y="400" width="374" height="40"/>
+                                        <rect key="frame" x="0.0" y="380" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.0090663186959999992" green="0.36160136009999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="eOf-fY-k3X"/>
@@ -167,9 +167,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTE-to-u4J">
-                                        <rect key="frame" x="0.0" y="460" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="440" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="3U1-Fc-FMi"/>
+                                            <constraint firstAttribute="height" constant="15" id="3U1-Fc-FMi"/>
                                         </constraints>
                                         <state key="normal" title="Western Seminary"/>
                                         <connections>
@@ -177,9 +177,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEi-DH-3hv">
-                                        <rect key="frame" x="0.0" y="500" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="475" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="RXI-yO-srw"/>
+                                            <constraint firstAttribute="height" constant="15" id="RXI-yO-srw"/>
                                         </constraints>
                                         <state key="normal" title="GoodLion"/>
                                         <connections>
@@ -187,9 +187,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpP-Xa-zdE">
-                                        <rect key="frame" x="0.0" y="540" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="510" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="xyq-QS-qbb"/>
+                                            <constraint firstAttribute="height" constant="15" id="xyq-QS-qbb"/>
                                         </constraints>
                                         <state key="normal" title="The Bible Project Podcast"/>
                                         <connections>
@@ -197,7 +197,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Fun Stuff ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZF-ix-etD">
-                                        <rect key="frame" x="0.0" y="580" width="374" height="40"/>
+                                        <rect key="frame" x="0.0" y="545" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.0090663186959999992" green="0.36160136009999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="4WG-4B-RwW"/>
@@ -207,9 +207,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7C-iF-ouH">
-                                        <rect key="frame" x="0.0" y="640" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="605" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="1a5-9J-AK8"/>
+                                            <constraint firstAttribute="height" constant="15" id="1a5-9J-AK8"/>
                                         </constraints>
                                         <state key="normal" title="Famous Chilli"/>
                                         <connections>
@@ -217,9 +217,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pU2-ZB-qB7">
-                                        <rect key="frame" x="0.0" y="680" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="640" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="Ptx-gC-tlA"/>
+                                            <constraint firstAttribute="height" constant="15" id="Ptx-gC-tlA"/>
                                         </constraints>
                                         <state key="normal" title="Hair Tutorial"/>
                                         <connections>
@@ -931,19 +931,10 @@ Come join us as we all discover what our next step with Jesus may be.
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uZ-Gj-CeH">
-                                        <rect key="frame" x="0.0" y="510" width="374" height="218"/>
+                                        <rect key="frame" x="0.0" y="510" width="374" height="258"/>
                                         <string key="text">We meet every Sunday morning during the 11:15am service over at The Summit. Students have the opportunity to connect through fun games, great worship, and awesome small groups. In addition, each week includes a practical message that each student can take with them and apply at home and school.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4N1-t6-x1g">
-                                        <rect key="frame" x="0.0" y="748" width="374" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="9Ag-L1-PSi"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1146,7 +1137,7 @@ Come join us as we all discover what our next step with Jesus may be.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mfB-3O-HUX">
-                                <rect key="frame" x="20" y="69" width="374" height="700"/>
+                                <rect key="frame" x="20" y="69" width="374" height="655"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PDj-BZ-xhQ">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
@@ -1176,9 +1167,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eG-Es-jLj">
-                                        <rect key="frame" x="0.0" y="180" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="180" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="xVE-kH-QGf"/>
+                                            <constraint firstAttribute="height" constant="15" id="xVE-kH-QGf"/>
                                         </constraints>
                                         <state key="normal" title="The Bible Project"/>
                                         <connections>
@@ -1186,9 +1177,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBt-qD-zgb">
-                                        <rect key="frame" x="0.0" y="220" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="215" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="Qqo-W1-X4J"/>
+                                            <constraint firstAttribute="height" constant="15" id="Qqo-W1-X4J"/>
                                         </constraints>
                                         <state key="normal" title="Blue Letter Bible"/>
                                         <connections>
@@ -1196,9 +1187,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppQ-m8-tVR">
-                                        <rect key="frame" x="0.0" y="260" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="250" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="7Wc-4J-4Jj"/>
+                                            <constraint firstAttribute="height" constant="15" id="7Wc-4J-4Jj"/>
                                         </constraints>
                                         <state key="normal" title="OpenBible"/>
                                         <connections>
@@ -1206,7 +1197,7 @@ Come join us as we all discover what our next step with Jesus may be.
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Mental Health Support ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8S-Dr-Guu">
-                                        <rect key="frame" x="0.0" y="300" width="374" height="40"/>
+                                        <rect key="frame" x="0.0" y="285" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.25473193630000002" green="0.3365857813" blue="0.51169851040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="RdH-R8-wBc"/>
@@ -1216,9 +1207,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfU-xC-5uE">
-                                        <rect key="frame" x="0.0" y="360" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="345" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="in0-qH-9Vm"/>
+                                            <constraint firstAttribute="height" constant="15" id="in0-qH-9Vm"/>
                                         </constraints>
                                         <state key="normal" title="My Name Is Hope Series"/>
                                         <connections>
@@ -1226,7 +1217,7 @@ Come join us as we all discover what our next step with Jesus may be.
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Podcasts ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Hd-H9-9uh">
-                                        <rect key="frame" x="0.0" y="400" width="374" height="40"/>
+                                        <rect key="frame" x="0.0" y="380" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.25473193630000002" green="0.3365857813" blue="0.51169851040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="qIr-o7-uA2"/>
@@ -1236,9 +1227,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxG-TZ-gbi">
-                                        <rect key="frame" x="0.0" y="460" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="440" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="IY0-gi-Ov1"/>
+                                            <constraint firstAttribute="height" constant="15" id="IY0-gi-Ov1"/>
                                         </constraints>
                                         <state key="normal" title="Western Seminary"/>
                                         <connections>
@@ -1246,9 +1237,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvL-SG-lGo">
-                                        <rect key="frame" x="0.0" y="500" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="475" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="L2k-b3-zRI"/>
+                                            <constraint firstAttribute="height" constant="15" id="L2k-b3-zRI"/>
                                         </constraints>
                                         <state key="normal" title="GoodLion"/>
                                         <connections>
@@ -1256,9 +1247,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBs-oc-vt8">
-                                        <rect key="frame" x="0.0" y="540" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="510" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="kNl-0N-Ie3"/>
+                                            <constraint firstAttribute="height" constant="15" id="kNl-0N-Ie3"/>
                                         </constraints>
                                         <state key="normal" title="The Bible Project Podcast"/>
                                         <connections>
@@ -1266,7 +1257,7 @@ Come join us as we all discover what our next step with Jesus may be.
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⁓ Fun Stuff ⁓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOs-8J-HDi">
-                                        <rect key="frame" x="0.0" y="580" width="374" height="40"/>
+                                        <rect key="frame" x="0.0" y="545" width="374" height="40"/>
                                         <color key="backgroundColor" red="0.25473193630000002" green="0.3365857813" blue="0.51169851040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="sBv-vZ-gXU"/>
@@ -1276,9 +1267,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNv-zE-QR7">
-                                        <rect key="frame" x="0.0" y="640" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="605" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="5R3-fi-vSl"/>
+                                            <constraint firstAttribute="height" constant="15" id="5R3-fi-vSl"/>
                                         </constraints>
                                         <state key="normal" title="Famous Chilli"/>
                                         <connections>
@@ -1286,9 +1277,9 @@ Come join us as we all discover what our next step with Jesus may be.
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ll-LD-REd">
-                                        <rect key="frame" x="0.0" y="680" width="374" height="20"/>
+                                        <rect key="frame" x="0.0" y="640" width="374" height="15"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="jCa-4y-3m1"/>
+                                            <constraint firstAttribute="height" constant="15" id="jCa-4y-3m1"/>
                                         </constraints>
                                         <state key="normal" title="Hair Tutorial"/>
                                         <connections>
